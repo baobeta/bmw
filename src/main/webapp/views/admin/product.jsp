@@ -3,6 +3,7 @@
 <%@include file="/common/taglib.jsp" %>
 
 <head>
+    <meta charset="utf-8"/>
     <title>Products</title>
     <!-- BEGIN PAGE LEVEL STYLES -->
     <link rel="stylesheet" type="text/css"

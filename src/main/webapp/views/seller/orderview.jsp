@@ -4,6 +4,7 @@
 <%--<fmt:setLocale value="fr_CA"/>--%>
 <head>
     <title>Order Details</title>
+    <meta charset="utf-8"/>
     <!-- BEGIN PAGE LEVEL STYLES -->
     <link rel="stylesheet" type="text/css"
           href="<c:url value="/templates/assets/global/plugins/select2/select2.css"/>"/>

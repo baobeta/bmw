@@ -3,6 +3,7 @@
 <%@include file="/common/taglib.jsp" %>
 <head>
     <title>Orders</title>
+    <meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css"
           href="<c:url value="/templates/assets/global/plugins/select2/select2.css"/>"/>
     <link rel="stylesheet" type="text/css"

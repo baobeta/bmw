@@ -2,6 +2,7 @@
          pageEncoding="UTF-8" %>
 <%@include file="/common/taglib.jsp" %>
 <head>
+    <meta charset="utf-8"/>
     <title>Orders</title>
     <link rel="stylesheet" type="text/css"
           href="<c:url value="/templates/assets/global/plugins/select2/select2.css"/>"/>

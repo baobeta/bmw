@@ -165,7 +165,7 @@ License: You must have a valid license purchased only from themeforest (the abov
                                                         <strong>${map.value.pid.price}</strong>
                                                     </td>
                                                     <td class="goods-page-total">
-                                                        <strong>${map.value.pid.price * map.value.quantity}</strong>
+                                                        <strong> <fmt:formatNumber value="${map.value.pid.price * map.value.quantity}" type="currency" maxFractionDigits="0" currencySymbol="VNĐ"/></strong>
                                                     </td>
                                                     <td class="del-goods-col">
                                                         <a class="del-goods" href="${pageContext.request.contextPath}/home/cart-remove?pId=${map.value.pid.id}">&nbsp;</a>
@@ -184,7 +184,7 @@ License: You must have a valid license purchased only from themeforest (the abov
                                         </c:forEach>
                                             <li>
                                                 <em>Sub total</em>
-                                                <strong class="price">${total }</strong>
+                                                <strong class="price"><fmt:formatNumber value="${total }" type="currency" maxFractionDigits="0" currencySymbol="VNĐ"/> </strong>
                                             </li>
                                             <li>
                                                 <em>Shipping cost</em>
@@ -193,7 +193,7 @@ License: You must have a valid license purchased only from themeforest (the abov
 
                                             <li class="checkout-total-price">
                                                 <em>Total (VNĐ)</em>
-                                                <strong class="price">${total }</strong>
+                                                <strong class="price"><fmt:formatNumber value="${total }" type="currency" maxFractionDigits="0" currencySymbol="VNĐ"/> </strong>
                                             </li>
                                         </ul>
                                     </div>

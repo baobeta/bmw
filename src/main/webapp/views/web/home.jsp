@@ -180,7 +180,8 @@
                                 </div>
                             </div>
                             <h3><a href="/home/product?pid=${i.id}">${i.name}</a></h3>
-                            <div class="pi-price">${i.price} VNĐ</div>
+                            <div class="pi-price">
+                                <fmt:formatNumber value="${i.price}" type="currency" maxFractionDigits="0" currencySymbol="VNĐ"/></div>
 
 
                         </div>
@@ -214,7 +215,7 @@
                                     </div>
                                 </div>
                                 <h3><a href="/home/product?pid=${i.id}">${i.name}</a></h3>
-                                <div class="pi-price">${i.price} VNĐ</div>
+                                <div class="pi-price"> <fmt:formatNumber value="${i.price}" type="currency" maxFractionDigits="0" currencySymbol="VNĐ"/></div>
 
 
                             </div>

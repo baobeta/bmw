@@ -3,7 +3,7 @@
 <%@include file="/common/taglib.jsp" %>
 <head>
     <title>Orders</title>
-
+    <meta charset="utf-8">
     <%@include file="/common/seller/theme.jsp" %>
     <link rel="stylesheet"
           href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
